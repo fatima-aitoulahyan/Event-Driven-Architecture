@@ -202,7 +202,7 @@ Réponse JSON :
 
 Le même événement est reçu par le `kafka-console-consumer` : l'événement transite bien par Kafka.
 
-![Publication d'un événement](captures/WhatsApp%20Image%202026-10-19%20at%2021.48.31.jpeg)
+![Publication d'un événement](images/WhatsApp%20Image%202026-10-19%20at%2021.48.31.jpeg)
 
 ### 7.2 Analyse en temps réel (SSE)
 
