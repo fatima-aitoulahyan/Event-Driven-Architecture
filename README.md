@@ -135,7 +135,7 @@ Les messages `fatima` et `test` saisis dans le producer apparaissent dans le con
 
 > ℹ️ Les avertissements `LEADER_NOT_AVAILABLE` affichés au démarrage du consumer sont **normaux** : le topic `R2` est créé automatiquement à la première utilisation et le leader de la partition n'est pas encore élu. Ils disparaissent dès que le topic est prêt.
 
-![Test console producer / consumer](images/WhatsApp Image 2026-10-19 at 21.22.39.jpeg)
+![Test console producer / consumer](images/WhatsApp%20Image%202026-10-19%20at%2021.22.39.jpeg)
 
 ---
 
@@ -202,7 +202,7 @@ Réponse JSON :
 
 Le même événement est reçu par le `kafka-console-consumer` : l'événement transite bien par Kafka.
 
-![Publication d'un événement](captures/WhatsApp Image 2026-10-19 at 21.48.31.jpeg)
+![Publication d'un événement](captures/WhatsApp%20Image%202026-10-19%20at%2021.48.31.jpeg)
 
 ### 7.2 Analyse en temps réel (SSE)
 
@@ -219,7 +219,7 @@ data:{"P1":8,"P2":6}
 data:{"P1":9,"P2":10}
 ```
 
-![Flux analytics](images/WhatsApp Image 2026-10-20 at 07.12.22.jpeg)
+![Flux analytics](images/WhatsApp%20Image%202026-10-20%20at%2007.12.22.jpeg)
 
 ### 7.3 Tableau de bord temps réel
 
@@ -229,7 +229,7 @@ http://localhost:8080/index.html
 
 Les courbes rouge (`P2`) et verte (`P1`) se mettent à jour en continu à partir du flux `/analytics`.
 
-![Dashboard temps réel](images/WhatsApp Image 2026-10-20 at 07.19.43.jpeg)
+![Dashboard temps réel](images/WhatsApp%20Image%202026-10-20%20at%2007.19.43.jpeg)
 
 ---
 
